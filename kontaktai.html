@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Projektas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/kontaktai.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+<body>
+    <header>
+        
+    <div class="row">
+        <div class="logo">
+        <img src="nuotraukos/logo.png"
+        </div>
+            
+    <ul class="main-nav">    
+        <li><a href="index.html"> Pagrindinis </a></li>
+        <li><a href="nuotraukos.html"> Nuotraukos </a></li>
+        <li><a href="anketa.html"> Anketa </a></li>
+        <li class="active"><a href="kontaktai.html"> Kontaktai </a></li>
+		<li><a href=""> Nustatymai </a></li>
+    </ul>    
+	
+    </div>
+			
+			<div class="kontaktai">
+				<div id="strukturareklama">
+					<br> </br>
+					<table cellspacing="4" cellpadding="5" border="0" id="lentele">
+					<tr>
+					<th colspan="2"></th> 
+					</tr>
+						<tr>
+						<td id="spalva" >Facebook</td>
+						<td id="spalva2">Tadas Taparavičius</td>
+					</tr>
+			<tr>
+					<td id="spalva">Instagram</td>
+					<td id="spalva2">TadasLoco</td>
+			</tr>
+					<tr>
+						<td id="spalva">El-paštas</td>
+						<td id="spalva2">t.taparavicius@gmail.com</td>
+					</tr>
+			<tr>
+					<td id="spalva">Telefono nr.</td>
+					<td id="spalva2">+37065452184</td>
+			</tr>
+			<tr>
+					<td id="spalva">Adresas</td>
+					<td id="spalva2">Verkių g.45</td>
+			</tr>
+				</table>
+			</div>
+	
+			</div>
+			
+			<a href="https://www.facebook.com/tadas.taparavicius" class="fa fa-facebook"></a>
+			<a href="https://www.instagram.com/tadasloco/" class="fa fa-instagram"></a>
+			<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBkzDNgKpmVKXXFsQKKzJvqDKcxFVnJhxnFKDmpzPXhTZmcWRDwJcbQTvJvjpHfslbfbzn" class="fa fa-google"></a>
+			
+			
+			<div id="map"></div>
+			
+			<script> 
+			function initMap() {
+				var location = {lat: -25.344, lng: 131.036};
+				var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 4
+				center: location
+			});
+		}
+</script>
+
+			
+			<script asyc defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA43ZE1BxTufChfUlHVgvrEz0yjFoacD2c&callback=initMap"></script>
+			
+			
+			
+			
+			
+			
+	</body>
+</html>
