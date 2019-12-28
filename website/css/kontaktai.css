@@ -1,0 +1,90 @@
+﻿		.kontaktai{
+		margin-left: 35%;
+		margin-top: 50px;
+		}
+		
+		#spalva{
+				width: 25%;
+				background-color: #051019;
+				color: white;
+				opacity: 0.8;
+				padding: 25px;
+				margin-left: 250px;
+				border-radius: 10px;
+		}
+		
+		#spalva2{
+				width: 50%;
+				background-color: white;
+				color: #051019;
+				opacity: 0.8;
+				padding: 25px;
+				margin-left: 250px;
+				border-radius: 10px;
+		}
+		
+		span {
+			color: blue;
+			border: 1px solid white;
+			}
+
+		.extra span {
+			color: inherit;
+		}
+		
+		p {color:red !important;}
+		p {color:blue;}
+		
+		
+		
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  position: absolute;
+  visibility:visible;
+  left: 435px;
+  top: 265px;
+  z-index:200; 
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  position: absolute;
+  visibility:visible;
+  left: 435px;
+  top: 335px;
+  z-index:200; 
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  position: absolute;
+  visibility:visible;
+  left: 435px;
+  top: 403px;
+  z-index:200; 
+}
+
+#map {
+        width: 50%;
+        height: 300px;
+        background-color: grey;
+      }
+		
+		
+		

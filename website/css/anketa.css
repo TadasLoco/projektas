@@ -1,0 +1,48 @@
+				.simple-form{
+				text-align: center;
+				margin: 80px 300px;
+				margin-top: 20px;
+				margin-left: 200px;
+				}
+				
+				#registration{
+				width: 50%;
+				background-color: #051019;
+				opacity: 0.8;
+				padding: 25px;
+				margin-left: 200px;
+				border-radius: 10px;
+				}
+				
+				#button{
+				width: 250px;
+				padding: 10px;
+				border-radius: 5px;
+				}
+				
+				#textarea{
+				padding: 10px;
+				border-radius: 5px;
+				}
+				
+				#ph{
+				width: 75px;
+				padding: 10px;
+				border-radius: 5px;
+				}
+				#phone{
+				width: 170px;
+				padding: 10px;
+				border-radius: 5px;
+				}
+				
+				#but{
+				color: white;
+				font-size: 18px;
+				}
+				
+				#butt{
+				width: 250px;
+				padding: 10px;
+				border-radius: 5px;
+				}
